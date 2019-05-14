@@ -6,8 +6,7 @@ import java.util.List;
 public class ArrayFind {
 
 	public static void main(String[] args) {
-		
-		
+
 		boolean found = false;
 		try {
 			List array = (List) Class.forName("java.util.ArrayList").newInstance();
