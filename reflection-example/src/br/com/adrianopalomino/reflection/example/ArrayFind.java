@@ -9,7 +9,7 @@ public class ArrayFind {
 
 		boolean found = false;
 		try {
-			List array = (List) Class.forName("java.util.ArrayList").newInstance();
+			List array = (List) Class.forName(args[0]).newInstance();
 			Class<?> cls = array.getClass();
 			Field[] flds = cls.getDeclaredFields();
 			for (Field f : flds) {
