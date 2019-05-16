@@ -12,7 +12,7 @@ public class ReflectClass {
 		return attributeOne;
 	}
 
-	// this method will be invoked by another class
+	// this private method will be invoked by another class
 	private void setAttributeOne(int attributeOne) {
 		this.attributeOne = attributeOne;
 	}
