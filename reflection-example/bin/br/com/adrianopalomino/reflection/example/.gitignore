@@ -3,3 +3,8 @@
 /Person.class
 /ArrayFind.class
 /Compile.class
+/ArrayFind$ClassMember.class
+/ClassDeclarationSpy.class
+/CompilePackageClass.class
+/TestReflectionClass.class
+/ReflectionTest.class
