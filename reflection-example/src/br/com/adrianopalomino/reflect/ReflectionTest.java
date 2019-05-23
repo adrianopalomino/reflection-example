@@ -1,12 +1,12 @@
-package br.com.adrianopalomino.reflection.example;
+package br.com.adrianopalomino.reflect;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
-import br.com.adrianopalomino.reflect.ReflectClass;
-
 /**
+ * This class it's used to invoke a private method of another class using reflection
+ * 
  * @author adrianopalomino
  *
  */
@@ -36,6 +36,9 @@ public class ReflectionTest {
 
 		// here we invoke the method of object reflect
 		privateMethod.invoke(reflect, 123);
+		
+		// print the reflect object
+		System.out.println(reflect);
 
 	}
 

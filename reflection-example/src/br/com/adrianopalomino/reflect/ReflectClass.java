@@ -13,4 +13,9 @@ public class ReflectClass {
 		this.attributeOne = attributeOne;
 	}
 
+	@Override
+	public String toString() {
+		return "ReflectClass [attributeOne=" + attributeOne + "]";
+	}
+
 }
